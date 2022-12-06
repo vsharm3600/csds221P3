@@ -1,0 +1,31 @@
+<nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+  <h1 id="header">Meteorite Landing Infograph:</h1>
+</nav>
+<p id="intro" class="well well-lg">Below is a scatter plot of Meteorite Landings recorded in a Nasa JSON Dataset.
+The data consists of multiple attributes, but for ease of readability, the name of the meatorite, the year it landed, and the size of the meteorite in grams will be displayed. On the x-axis of the scatter plot, the year will be graphed. On the y-axis of the scatter plot, the mass of the meteorite will be graphed.
+Hovering over the data point will display the name of the meteorite along with the year and mass of meteorite in the following format: Name(year, mass)
+Click the respective buttons below to view the JSON Dataset, Generate the Infograph, or learn more about Meteorites (Disclaimer: Outliers in the dataset in mass and year have been removed to provide the most complete and in-depth view of the data distribution as possible)</p>
+<a class="btn btn-primary" href="https://data.nasa.gov/resource/y77d-th95.json" target="_blank" role="button">Click this link to view the dataset</a>
+<button class="btn btn-success" id="generate" onclick="changeColor()"> Generate Graph</button>
+<a class="btn btn-primary" href="https://education.nationalgeographic.org/resource/meteorite" target="_blank" role="button" id ="info">Click this Button to learn more about meteors</a>
+
+
+<br>
+<br>
+<div>
+<canvas id="myChart"></canvas>
+</div>
+<br>
+<br>
+<br>
+
+<div id="meteor">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Meteoroid_meteor_meteorite.gif" alt="Meteor" width="500" height="600">
+  <h1> what is a  meteors </h1>
+  <p> a meeotr is cool </p>
+<div>
+
+
+</div>
+  
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.0.1/dist/chart.umd.min.js" type="module"/>

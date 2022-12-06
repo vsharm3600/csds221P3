@@ -1,0 +1,24 @@
+body{
+  text-align:center;
+  background-image: url("https://www.nasa.gov/sites/default/files/thumbnails/image/web_first_images_release.png")
+}
+#header{
+  font-size:24 pt;
+  font-weight: bold;
+  color: navy;
+}
+.generate{
+  background-color:white;
+}
+#intro{
+  font-size:24 pt;
+}
+#info{
+  background-color:orange;
+  color:white;
+}
+#meteor{
+  display:none;
+  background-color:white;
+  width = 50vw;
+}
